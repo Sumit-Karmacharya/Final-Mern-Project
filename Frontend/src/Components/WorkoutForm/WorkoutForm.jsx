@@ -34,7 +34,7 @@ const WorkoutForm = () => {
     const workout = { title, reps, load };
 
     const response = await fetch(
-      "http://localhost:4000/api/workouts",
+      "https://final-mern-project-backend.onrender.com/api/workouts",
       {
         method: "POST",
         headers: {

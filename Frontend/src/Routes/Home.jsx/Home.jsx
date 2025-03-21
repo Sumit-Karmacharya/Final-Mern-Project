@@ -12,7 +12,7 @@ const Home = () => {
     const fetchWorkouts = async () => {
       try {
         const response = await fetch(
-          "http://localhost:4000/api/workouts",
+          "https://final-mern-project-backend.onrender.com/api/workouts",
           {
             headers: {
               Authorization: `Bearer ${user.token}`,

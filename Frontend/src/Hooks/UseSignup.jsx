@@ -11,7 +11,7 @@ export const useSignup = () => {
     setError(null) // Corrected this to set `null` instead of 'null'
 
     try {
-      const response = await fetch('http://localhost:4000/api/users/signup', {
+      const response = await fetch('https://final-mern-project-backend.onrender.com/api/users/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
